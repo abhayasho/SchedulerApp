@@ -1,21 +1,23 @@
-# Spotify Wrapped App 🎧
+# Scheduler App 🗓️
 
-An Android app that replicates the popular Spotify Wrapped experience by analyzing a user’s listening history and generating interactive insights about genres, artists, and trends.
+A cross-functional Android scheduling app that helps users manage daily tasks and organize their calendar effectively. Built using Android Studio with a Kotlin frontend and Java backend, it offers a streamlined user experience with persistent task tracking.
 
-## 🛠 Tech Stack
-- **Frontend:** Kotlin (Jetpack Compose / Android UI)
-- **Backend:** Java (Firebase Functions)
-- **Database & Auth:** Firebase (Firestore, Firebase Auth)
-- **External APIs:** Spotify Web API
+## ✨ Features
 
-## 🌟 Features
-- Spotify OAuth login with secure access token handling
-- Genre and artist breakdown with visual analytics
-- Historical summary of listening data (monthly/yearly)
-- Firebase integration for user data storage and authentication
-- Optimized networking using batched Spotify API requests
+- ✅ Create, edit, and delete tasks
+- 🕒 Set custom reminders and due dates
+- 📆 Calendar view to visualize upcoming tasks
+- 💾 Local storage and Firebase integration for data persistence
+- 🔔 Push notifications for scheduled tasks
 
-## 🚀 Getting Started
+## 🛠 Built With
+
+- **Frontend**: Kotlin, Android Jetpack (RecyclerView, LiveData, ViewModel)
+- **Backend**: Java, Firebase Realtime Database
+- **Tools**: Android Studio, Gradle, Git
+
+## 📦 Installation
+
 1. Clone the repo:
    ```bash
-   git clone https://github.com/abhayashok/spotify-wrapped-clone.git
+   git clone https://github.com/abhayasho/SchedulerApp.git
